@@ -115,8 +115,16 @@
 
 # if 10 < 20: print("hurray") # if key word is used for making decisions
 
-radius = int(input("Please enter the radius to calculate : "))
+# radius = int(input("Please enter the radius to calculate : "))
 
-perimeter = 2* (22/7)* radius
+# perimeter = 2* (22/7)* radius
 
-print(perimeter)
+# print(perimeter)
+
+
+a = int(input("Please enter the a : "))
+b = int(input("Please enter the b : "))
+
+c = (a**2+b**2)**0.5
+
+print(round(c))
